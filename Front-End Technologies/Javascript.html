@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JavaScript Alert Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        .bg-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            background-color: blue;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bg-container">
+        <h2>Click the button to display an alert</h2>
+        <button onclick=showAlert()>Show Alert</button>
+    </div>
+
+    <script>
+        // JavaScript code
+        function showAlert() {
+            alert('Hello, this is a JavaScript alert!');
+        }
+    </script>
+</body>
+
+</html>
