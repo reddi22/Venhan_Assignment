@@ -18,7 +18,7 @@ class BankAccount:
         return self.balance
 
 # Example usage
-bank_details = BankAccount('123456789', 'Usha')
+bank_details = BankAccount('9640739947', 'Ramu')
 
 bank_details.deposit(150.0)
 print(bank_details.get_balance())  # Output: 150.0
