@@ -8,6 +8,6 @@ s = 'level'
 output = is_palindrome(s)
 
 if output:
-    print('s is a' + ' Palindrome') #output = s is a Palindrome
+    print(s, ' is a' + ' Palindrome') #output = level is a Palindrome
 else:
-    print('s is not a' + ' Palindrome')
+    print(s, ' is not a' + ' Palindrome')
